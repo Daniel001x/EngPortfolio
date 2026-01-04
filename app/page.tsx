@@ -4,7 +4,12 @@ import { useState, useEffect } from 'react';
 import { Home, X, Github, Mail, Moon, Sun, MessageCircle, Download } from 'lucide-react';
 
 export default function Portfolio() {
-  const [time, setTime] = useState('');
+  const [time, setTime] = useState(() => {
+    const now = new Date();
+    const hours = String(now.getHours()).padStart(2, '0');
+    const minutes = String(now.getMinutes()).padStart(2, '0');
+    return `IN ${hours}:${minutes}`;
+  });
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
@@ -15,7 +20,6 @@ export default function Portfolio() {
       setTime(`IN ${hours}:${minutes}`);
     };
 
-    updateTime();
     const interval = setInterval(updateTime, 1000);
 
     return () => clearInterval(interval);
