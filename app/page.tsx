@@ -115,11 +115,97 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <section>
-            <h2 className="text-2xl font-bold mb-4">Skills</h2>
-            <p className="text-gray-700 dark:text-gray-300 text-base">
-              These are the technologies I've learned and worked with. This list is constantly evolving as I continue to learn and grow as a developer.
-            </p>
+          <section className="space-y-12">
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Skills</h2>
+              <p className="text-gray-700 dark:text-gray-300 text-base">
+                These are the technologies I've learned and worked with. This list is constantly evolving as I continue to learn and grow as a developer.
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              <div>
+                <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">{'< LANGUAGES />'}</p>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-yellow-400 rounded-full"></span>
+                    JavaScript
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-blue-400 rounded-full"></span>
+                    TypeScript
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-orange-400 rounded-full"></span>
+                    HTML
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-blue-500 rounded-full"></span>
+                    CSS
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">{'< FRAMEWORKS / LIBRARIES />'}</p>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-cyan-400 rounded-full"></span>
+                    React
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-gray-900 dark:bg-white rounded-full"></span>
+                    Next.js
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    Express.js
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-cyan-500 rounded-full"></span>
+                    Tailwind CSS
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">{'< BACKEND & RUNTIME />'}</p>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    Node.js
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">{'< DATABASE />'}</p>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-green-500 rounded-full"></span>
+                    MongoDB
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <p className="text-sm font-semibold text-gray-600 dark:text-gray-400 mb-3">{'< DEVELOPER TOOLS />'}</p>
+                <div className="flex flex-wrap gap-2">
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-red-500 rounded-full"></span>
+                    Git
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-gray-900 dark:bg-white rounded-full"></span>
+                    GitHub
+                  </div>
+                  <div className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-800 rounded-full text-sm border border-gray-300 dark:border-gray-700">
+                    <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                    Docker
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
         </main>
       </div>
